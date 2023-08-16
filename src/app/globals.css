@@ -1,41 +1,43 @@
-/* ===== */
-/* SETUP */
-/* ===== */
+/* setup */
 
-* {
-  box-sizing: border-box;
-  margin: 0; padding: 0;
-}
+	* {
+		box-sizing: border-box;
+		margin: 0; padding: 0;
+	}
+	:root {
+		--text-color: #7c3e52;
+		--bg-color: #ffffff;
 
-:root {
-  --text-color: #7c3e52;
-  --bg-color: #ffffff;
+		font-size: 16px;
+		font-family: sans-serif;
+	}
+	body {
+		color: var(--text-color);
+		padding: 4px 8px;
+	}
 
-  font-size: 14px;
-}
+/* typography */
 
-body {
-  color: var(--text-color);
-  padding: 4px 8px;
-}
+	/* spacing */
+		h1, h2, h3, h4, h5, h6, p {
+			line-height: 2ex;
+			margin-bottom: 1ex;
+		}
 
-/* ========== */
-/* TYPOGRAPHY */
-/* ========== */
+	/* headers */
+		h1 { font-size: 3rem; }
+		h2 { font-size: 2rem; }
+		h3 { font-size: 1.3rem; }
 
-/* spacing */
-/* ------- */
+/* inline elements */
 
-h1, h2, h3, h4, h5, h6, p {
-  line-height: 2ex;
-  margin-bottom: 1ex;
-}
-
-/* headers */
-/* ------- */
-
-h1 { font-size: 3rem; }
-
-h2 { font-size: 2rem; }
-
-h3 { font-size: 1.3rem; }
+	/* links */
+		a { 
+			color: var(--text-color);
+			text-decoration: underline;
+		}
+		a:hover {
+			color: var(--bg-color);
+			background: var(--text-color);
+			text-decoration: none;
+		}
