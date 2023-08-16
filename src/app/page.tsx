@@ -13,12 +13,21 @@ export default async function Home() {
 
   return (
     <>
+      <h1>{metadata.title}</h1>
       <h2>projects</h2>
-      <ul>
+      <div className="gallery-grid">
         {projects.map((project) => (
-          <li key={project._id}>{project.name}</li>
+          <div key={project._id} className="gallery-grid-item">
+            {project.image && (
+              // <Image className="gallery-grid-item-image" src={project.image} alt={project.name} width={512} height={512}/>
+              <div className="gallery-grid-item-image" style={{backgroundImage: `url(${project.image})`}}></div>
+            )}
+            <Link href={`/work/${project.slug}`} key={project._id}>
+              {project.name}
+            </Link>
+          </div>
         ))}
-      </ul>
+      </div>
     </>
   )
 }

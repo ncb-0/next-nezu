@@ -1,5 +1,4 @@
 /* setup */
-
 	* {
 		box-sizing: border-box;
 		margin: 0; padding: 0;
@@ -17,7 +16,6 @@
 	}
 
 /* typography */
-
 	/* spacing */
 		h1, h2, h3, h4, h5, h6, p {
 			line-height: 2ex;
@@ -35,7 +33,6 @@
 		}
 
 /* inline elements */
-
 	/* links */
 		a { 
 			color: var(--text-color);
@@ -47,3 +44,26 @@
 			text-decoration: none;
 		}
 
+/* layout */
+
+	/* gallery grid */
+		.gallery-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+			grid-gap: 8px;
+			justify-content: left;
+		}
+		.gallery-grid-item {
+			border: 1px solid var(--text-color);
+			padding: 2px 4px 4px;
+			position: relative;
+			z-index: 0;
+		}
+		.gallery-grid-item-image {
+			width: 100%;
+			aspect-ratio: 1/1;
+			background-color: none;
+			background-position: top center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}

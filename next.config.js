@@ -4,6 +4,15 @@ const nextConfig = {
     mdxRs: true,
   },
 }
- 
-const withMDX = require('@next/mdx')()
-module.exports = withMDX(nextConfig)
+
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+      }
+    ]
+  }
+  
+}
