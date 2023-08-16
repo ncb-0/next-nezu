@@ -29,6 +29,11 @@
 		h2 { font-size: 2rem; }
 		h3 { font-size: 1.3rem; }
 
+	/* lists */
+		li {
+			margin-left: 2ch;
+		}
+
 /* inline elements */
 
 	/* links */
@@ -41,3 +46,4 @@
 			background: var(--text-color);
 			text-decoration: none;
 		}
+
