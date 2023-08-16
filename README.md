@@ -1,6 +1,8 @@
-# nezu.world 2.0.
+# nezu.world 2.0. (UNDER CONSTRUCTION :warning:)
 
 this some serious shit. nezu dot world TWO
+
+it is nowhere near done. but im #opensource so i dont CARE. look at my struggle. please. i pulled an allnighter just trying to wrrap my fucking mouse brain around next.js
 
 ## old stack :nauseated_face: :vomiting_face: :cold_face: :cry: :snail:
 - [jekyll](https://jekyllrb.com) (ssg (ewwww))
