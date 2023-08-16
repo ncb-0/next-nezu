@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { getProject, getProjects } from "../../../../sanity/sanity-utils";
 import { PortableText } from "@portabletext/react";
 
@@ -11,6 +12,9 @@ export default async function Project({ params }: Props) {
   
   return (
     <>
+      <Head>
+        <title>{project.name}</title>
+      </Head>
       <div>
         <h1>{project.name}</h1>
       </div>

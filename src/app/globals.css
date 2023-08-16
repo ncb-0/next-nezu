@@ -55,7 +55,7 @@
 		}
 		.gallery-grid-item {
 			border: 1px solid var(--text-color);
-			padding: 2px 4px 4px;
+			padding: 4px;
 			position: relative;
 			z-index: 0;
 		}

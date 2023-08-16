@@ -11,7 +11,7 @@ const sanityConfig = defineConfig ({
   schema: {
     types: schemas,
   },
-  apiVersion: "2023-08-15",
+  apiVersion: "2023-08-16",
   basePath: "/admin",
 })
 
