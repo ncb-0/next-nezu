@@ -2,7 +2,7 @@
 
 this some serious shit. nezu dot world TWO
 
-## old stack :nauseous: :vomit: :cold_face: :cry: :snail:
+## old stack :nauseated_face: :vomiting_face: :cold_face: :cry: :snail:
 - [jekyll][https://jekyllrb.com] (ssg (ewwww))
 - no cms. i just raw dog tht shit.
 
