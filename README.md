@@ -1,6 +1,6 @@
-# nezu.world 2.0. (UNDER CONSTRUCTION :warning:)
-
 this some serious shit. nezu dot world TWO
+
+# UNDER CONSTRUCTION :warning:
 
 it is nowhere near done. but im #opensource so i dont CARE. look at my struggle. please. i pulled an allnighter just trying to wrrap my fucking mouse brain around next.js
 
